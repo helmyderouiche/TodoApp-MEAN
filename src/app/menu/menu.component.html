@@ -1,0 +1,9 @@
+<mat-toolbar color="primary">
+  <mat-toolbar-row>
+    <span>Todo App</span>
+    <span class="example-spacer"></span>
+    <button mat-raised-button color="primary"  routerLinkActive="active-menu-btn" [routerLinkActiveOptions]="{exact: true}" [routerLink]="['']">Home</button>
+    <button mat-raised-button color="primary"  routerLinkActive="active-menu-btn" [routerLinkActiveOptions]="{exact: true}" routerLink="contact">Contact</button>
+    <button mat-raised-button color="primary" (click)="logoutBtn()">Logout</button>
+  </mat-toolbar-row>
+</mat-toolbar>
